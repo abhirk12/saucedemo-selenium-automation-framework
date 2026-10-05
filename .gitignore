@@ -1,0 +1,14 @@
+# In PowerShell:
+@"
+target/
+test-output/
+reports/
+screenshots/
+logs/
+.settings/
+.classpath
+.project
+.factorypath
+*.log
+.DS_Store
+"@ | Out-File -Encoding utf8 .gitignore
